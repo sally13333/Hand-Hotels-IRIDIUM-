@@ -1,7 +1,7 @@
 # Hand Hotels(Iridium)
 The aim of this repository is to follow the changes of my work with explaining of  the reasons.
 ***
-# Cpanel Changes Documentations
+# Cpanel Changes Documentations(new-wep-test)
 ***
 ## Editing wp-config.php (10/12/2020)
 > The pourpse of this file is to solve the problem of ERROR: Cookies are blocked due to unexpected output. For help, please see this documentation or try the support forums.
@@ -65,3 +65,20 @@ to wp-content>>themes>>BookYourTravel>>languages.
 By using POEdit program I have translate all needed words and save them into wp-content>>themes>>BookYourTravel>>languages.
 These files change periodically, depending on the new words that have to be translate.
 ### Note that we have to always create a backup of these files becase these files will get deleted during the automatic theme update.
+***
+
+# Cpanel Changes Documentations(new-wep-test2)
+***
+## Creating Php.int file (29/12/2020)
+- Creating Php.int file with the following commands.
+  - Result >>  Failure.
+```
+max_execution_time=300
+memory_limit=512M
+post_max_size=256M
+upload_max_filesize=128M
+```
+- Editing Functions or Htaccess Files. 
+  - Result >> Shoutown the Website.
+  
+***
